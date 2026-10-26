@@ -1,0 +1,56 @@
+# Allow-list repository: ignore EVERYTHING, then re-include only what belongs
+# in a public documentation repository. A forgotten source file can never be
+# staged by accident, even with `git add .` or `git add -A`.
+
+*
+
+# --- directories (must be re-included so git descends into them) ---
+!*/
+
+# --- root files ---
+!README.md
+!README.fa.md
+!LICENSE
+!SECURITY.md
+!CHANGELOG.md
+!CONTRIBUTING.md
+!CODE_OF_CONDUCT.md
+!.gitignore
+!.gitattributes
+
+# --- documentation, images, samples ---
+!docs/**/*.md
+!assets/previews/*.png
+!assets/samples/*.pdf
+
+# --- GitHub community files ---
+!.github/**/*.md
+!.github/**/*.yml
+
+# --- hooks and the only scripts that may live here ---
+!.githooks/pre-commit
+!.githooks/pre-push
+!scripts/check_public_repo.py
+!scripts/make_fingerprints.py
+!scripts/setup-hooks.sh
+
+# --- never, even if an exception above is ever widened by mistake ---
+*.py[cod]
+__pycache__/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.ttf
+*.otf
+*.woff
+*.woff2
+.env
+.env.*
+*.pem
+*.key
+*.db
+*.sqlite
+history/

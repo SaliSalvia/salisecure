@@ -1,0 +1,31 @@
+SaliSecure Documentation License
+
+Copyright (c) 2026 SaliSecure (https://salisec.ir). All rights reserved.
+
+This repository contains documentation, images and sample reports only.
+The SaliSecure software is proprietary and is NOT part of this repository or
+of this license.
+
+Permission is granted to:
+  - view and read the contents of this repository;
+  - download and share unmodified copies of the sample report PDFs, for
+    non-commercial purposes, with attribution to SaliSecure;
+  - quote short excerpts of the documentation with attribution and a link to
+    https://salisec.ir.
+
+You may NOT, without prior written permission:
+  - copy, modify, translate or redistribute the documentation, images or
+    sample reports for commercial purposes;
+  - present the documentation, report layouts or sample reports as your own;
+  - use the SaliSecure name, logo or signature in a way that suggests
+    endorsement or affiliation;
+  - use this repository's contents to train, benchmark or build a competing
+    product or service.
+
+No license, express or implied, is granted to any SaliSecure source code,
+scan logic, signatures, payload sets, report templates or other proprietary
+assets, whether or not they are described in this documentation.
+
+THE CONTENTS OF THIS REPOSITORY ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND. SALISECURE IS NOT LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY
+ARISING FROM THE USE OF THESE MATERIALS.

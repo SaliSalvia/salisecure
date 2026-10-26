@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Orders, prices and your own report
+    url: https://salisec.ir
+    about: Contact us through the website and quote your scan id. Security problems must not be reported in public issues, see SECURITY.md.
